@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink, Outlet } from 'react-router-dom';
 import './DefaultLayout.scss';
-import MenuItems from '../hooks/MenuItems';
+import MenuItems from '../components/MenuItems/MenuItems';
 
 function DefaultLayout() {
    return (
