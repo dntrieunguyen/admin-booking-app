@@ -1,0 +1,20 @@
+.adContainer {
+   @apply flex;
+   aside {
+      @apply w-[20%] min-h-[800px] border-r;
+      h1 {
+         @apply h-[50px] p-3 text-center;
+      }
+
+      .menu {
+         @apply p-3;
+      }
+   }
+
+   main {
+      @apply w-[80%];
+      .header__line {
+         @apply h-[50px] w-full;
+      }
+   }
+}
