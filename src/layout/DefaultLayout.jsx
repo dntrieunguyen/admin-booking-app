@@ -16,8 +16,8 @@ function DefaultLayout() {
                   listArr={[
                      {
                         action: 'DashBoard',
-                        icon: 'icon',
-                        to: '/user',
+                        icon: 'fa-solid fa-square-poll-vertical',
+                        to: '/',
                      },
                   ]}
                ></MenuItems>
@@ -26,71 +26,51 @@ function DefaultLayout() {
                   listArr={[
                      {
                         action: 'Users',
-                        icon: 'icon',
+                        icon: 'fa-regular fa-user',
                         to: '/user',
                      },
                      {
                         action: 'Hotels',
-                        icon: 'icon',
+                        icon: 'fa-solid fa-hotel',
                         to: '/hotel',
                      },
                      {
                         action: 'Rooms',
-                        icon: 'icon',
+                        icon: 'fa-solid fa-store',
                         to: '/room',
                      },
                      {
                         action: 'Transactions',
-                        icon: 'icon',
+                        icon: 'fa-solid fa-truck',
                         to: '/transaction',
                      },
                   ]}
                ></MenuItems>
-
-               {/* <div className="menu__items">
-                  <h2>Main</h2>
-                  <div className="menu__action">
-                     <i>icon</i>
-                     <NavLink>DashBoard</NavLink>
-                  </div>
-               </div>
-               <div className="menu__items">
-                  <h2>List</h2>
-                  <div className="menu__action">
-                     <i>icon</i>
-                     <NavLink>Users</NavLink>
-                  </div>
-                  <div className="menu__action">
-                     <i>icon</i>
-                     <NavLink>Hotels</NavLink>
-                  </div>
-                  <div className="menu__action">
-                     <i>icon</i>
-                     <NavLink>Rooms</NavLink>
-                  </div>
-                  <div className="menu__action">
-                     <i>icon</i>
-                     <NavLink>Transaction</NavLink>
-                  </div>
-               </div>
-               <div className="menu__items">
-                  <h2>New</h2>
-                  <div className="menu__action">
-                     <i>icon</i>
-                     <NavLink>New Hotel</NavLink>
-                  </div>
-                  <div className="menu__action">
-                     <i>icon</i>
-                     <NavLink>New Room</NavLink>
-                  </div>
-               </div>
-               <div className="menu__items">
-                  <h2>User</h2>
-                  <div className="menu__action">
-                     <i>icon</i>
-                     <NavLink>Log out</NavLink>
-                  </div>
-               </div> */}
+               <MenuItems
+                  title="New"
+                  listArr={[
+                     {
+                        action: 'NewHotel',
+                        icon: 'fa-solid fa-hotel',
+                        to: '/newHotel',
+                     },
+                     {
+                        action: 'NewRoom',
+                        icon: 'fa-solid fa-store',
+                        to: '/newRoom',
+                     },
+                  ]}
+               ></MenuItems>
+               <MenuItems
+                  title="Users"
+                  listArr={[
+                     {
+                        action: 'Logout',
+                        icon: 'fa-solid fa-arrow-right-from-bracket',
+                        to: '/',
+                     },
+                  ]}
+               ></MenuItems>
             </div>
          </aside>
          <main>

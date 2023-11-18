@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import './MenuItems.scss';
 
 function MenuItems({ title, listArr }) {
    return (
@@ -7,7 +8,7 @@ function MenuItems({ title, listArr }) {
          <h2>{title}</h2>
          {listArr.map((item, index) => (
             <div key={index} className="menu__action">
-               <i>{item.icon}</i>
+               <i className={`${item.icon}`}></i>
                <NavLink to={item.to}>{item.action}</NavLink>
             </div>
          ))}

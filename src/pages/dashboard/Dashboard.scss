@@ -1,0 +1,19 @@
+.widget__container {
+   @apply grid grid-cols-4 gap-5 p-3;
+   .widget__items {
+      @apply relative h-[100px] border shadow-xl p-3 rounded-xl;
+      h2 {
+         @apply font-bold text-gray-500;
+      }
+      p {
+         @apply my-2;
+      }
+      i {
+         @apply absolute right-0 bottom-0 p-2 m-1 rounded-lg;
+      }
+   }
+}
+
+.table__container {
+   @apply p-3;
+}

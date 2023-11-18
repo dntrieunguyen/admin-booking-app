@@ -1,0 +1,16 @@
+.menu__items {
+   @apply my-3;
+   h2 {
+      @apply uppercase;
+   }
+}
+.menu__action {
+   @apply my-1;
+   i {
+      @apply text-violet-700 pe-3;
+   }
+}
+
+.active {
+   @apply font-bold text-violet-700 transition-all ease-linear duration-75;
+}
