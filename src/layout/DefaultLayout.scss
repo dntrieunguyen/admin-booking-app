@@ -3,7 +3,7 @@
    aside {
       @apply w-[20%] min-h-[800px] border-r;
       h1 {
-         @apply h-[50px] p-3 text-center;
+         @apply h-[50px] p-3 text-center text-purple-700 font-bold;
       }
 
       .menu {
