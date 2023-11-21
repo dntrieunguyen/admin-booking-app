@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink, Outlet } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import './DefaultLayout.scss';
 import MenuItems from '../components/MenuItems/MenuItems';
 
